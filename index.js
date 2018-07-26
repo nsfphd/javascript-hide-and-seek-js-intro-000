@@ -3,6 +3,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
+<<<<<<< HEAD
   return document.querySelector('#nested .target')
 }
 
@@ -25,4 +26,11 @@ function deepestChild(){
     next=curr.children[0]
   }
   return curr
+=======
+  const lis = document.getElementById(#nested).querySelectorAll.target
+
+  for (var i = 0; i < lis.length; i++) {
+    console.log(i)
+  }
+>>>>>>> 15b08220956587f10985c24f1a1329074c3ac838
 }
